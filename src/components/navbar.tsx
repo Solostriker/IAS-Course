@@ -58,7 +58,7 @@ export default function NavBar (props:any) {
         <div style={interFont.style} className='h-16 bg-green-200'>
             <Image src="/ljlLogo.png" width={70} height={70} alt="Loading" className='relative top-2 left-2' />
 
-            <p className='text-xl absolute top-[18px] left-[90px] font-medium'>EduClassroom</p>
+            <p className='text-xl absolute top-[18px] left-[90px] font-medium'>IAS Learning Hub</p>
 
             {props.showLogin && <>
                 {!isValidPerson ? <>
