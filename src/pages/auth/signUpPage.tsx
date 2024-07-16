@@ -108,7 +108,7 @@ export default function signUpPage () {
     
     return (
         <div style={interFont.style} className="w-full h-full bg-emerald-200 absolute">
-            <Image src="/ljlLogo.png" width={100} height={100} alt="Loading" className='absolute left-[50%] translate-x-[-50%] top-[13px]' />
+            <Image src="/ias.ico" width={100} height={100} alt="Loading" className='absolute left-[50%] translate-x-[-50%] top-[13px]' />
 
             <div className="transition-all duration-300 w-[400px] bg-white absolute left-[50%] top-[100px] translate-x-[-50%] rounded-[30px]"
                 style={heightStyle()} 
