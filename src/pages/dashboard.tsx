@@ -42,7 +42,7 @@ export default function Dashboard () {
         <div className="" style={interFont.style}>
             {/* Side Menu */}
             <div className="bg-green-100 absolute ml-3 mt-3 h-[calc(100%-25px)] w-[150px] shadow-around-l rounded-[25px]">
-                <Image src="/ljlLogo.png" width={70} height={70} alt="Loading" className='relative left-[50%] translate-x-[-50%] top-3' />
+                <Image src="/ias.ico" width={70} height={70} alt="Loading" className='relative left-[50%] translate-x-[-50%] top-3' />
 
                 <button className="transition-all relative w-[75%] h-[40px] left-[50%] translate-x-[-50%] rounded-full top-[25px] box-content" onClick={() => setSelected(0)}>
                     {selected == 0 ? 
